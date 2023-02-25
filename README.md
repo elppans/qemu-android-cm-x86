@@ -29,6 +29,7 @@ cp -av /usr/share/android-x86/config ~/.config/android-x86
 
 Esta configuração depende do pacote [qemu-android-cm-x86](https://aur.archlinux.org/packages/qemu-android-cm-x86)  
 Após a instalação do pacote, faça o prossedimento a seguir, para usar o BlissOS no [QEMU](https://www.qemu.org/):  
+Nesta configuração, será usado a versão 14.10, mas pode fazer o mesmo procedimento para a versão 15.
 
 ```
 cd ~/Downloads
