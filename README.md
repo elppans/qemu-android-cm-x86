@@ -11,6 +11,7 @@ Usando makepkg:
 ```
 git clone https://aur.archlinux.org/qemu-android-cm-x86.git
 cd qemu-android-cm-x86
+sudo pacman -S inkscape
 makepkg -si --needed --noconfirm 
 mkdir -p ~/.config/android-x86
 cp -av /usr/share/android-x86/config ~/.config/android-x86
