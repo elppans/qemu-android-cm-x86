@@ -4,9 +4,7 @@ Pacote AUR [qemu-android-cm-x86](https://aur.archlinux.org/packages/qemu-android
 Pacote AUR original: [qemu-android-x86](https://aur.archlinux.org/packages/qemu-android-x86)  
 github original: [qemu-android-x86, autor: refutationalist](https://github.com/refutationalist/saur/tree/master/qemu-android-x86)  
 
-Instalação:  
-
-Usando makepkg:  
+## Instalação, usando makepkg:  
 
 ```
 git clone https://aur.archlinux.org/qemu-android-cm-x86.git
@@ -17,7 +15,7 @@ mkdir -p ~/.config/android-x86
 cp -av /usr/share/android-x86/config ~/.config/android-x86
 ```
 
-Usando yay (mais fácil):  
+## Instalação, usando yay (mais fácil):  
 
 ```
 yay -S qemu-android-cm-x86
@@ -25,11 +23,31 @@ mkdir -p ~/.config/android-x86
 cp -av /usr/share/android-x86/config ~/.config/android-x86
 ```
 
-# Configurando [BlissOS](https://blissos.org/) com qemu-android-cm-x86:
+# Configurando [BlissOS](https://blissos.org/) com [qemu-android-cm-x86](https://aur.archlinux.org/packages/qemu-android-cm-x86):
 
 Esta configuração depende do pacote [qemu-android-cm-x86](https://aur.archlinux.org/packages/qemu-android-cm-x86)  
-Após a instalação do pacote, faça o prossedimento a seguir, para usar o BlissOS no [QEMU](https://www.qemu.org/):  
-Nesta configuração, será usado a versão 14.10, mas pode fazer o mesmo procedimento para a versão 15.
+Após a instalação do pacote, faça o procedimento a seguir, para usar o [BlissOS](https://blissos.org/) no [QEMU](https://www.qemu.org/):  
+
+## Versões do BlissOS:  
+
+> Stock - Normalmente, os barebones, aplicativos mínimos adicionado. Perfeito para testes de produtos  
+FOSS - Inclui código aberto e gratuito soluções de aplicativos e lojas de aplicativos ( Aurora Droid para aplicativos de código aberto de repos de F-Droid e Aurora Store para acessar o Google Jogar biblioteca de aplicativos )  
+Gapps/GMS - Inclui o Google Play Services ( Conjunto mínimo de aplicativos, comparável a Pico / Nano )  
+Para mais informações, acesse o [site oficial, Downloads](https://blissos.org/index.html#download)  
+
+## Links, BlissOS versão 14 (Android 11) e 15 (Android 12):  
+
+> https://sourceforge.net/projects/blissos-dev/files/Beta/Bliss-v14.10-x86_64-OFFICIAL-opengapps-20230201.iso
+https://sourceforge.net/projects/blissos-dev/files/Beta/Bliss-v14.10-x86_64-OFFICIAL-foss-20230201.iso
+https://sourceforge.net/projects/blissos-dev/files/Beta/Bliss-v15.8.4-x86_64-OFFICIAL-gapps-20230201.iso
+https://sourceforge.net/projects/blissos-dev/files/Beta/Bliss-v15.8.4-x86_64-OFFICIAL-foss-20230201.iso
+
+## Baixando e configurando BlissOS:  
+
+Nesta configuração, será usado o BlissOS versão 14, mas pode fazer o mesmo procedimento para a versão 15.  
+* Se for usar o BlissOS 15 e quiser usar o aplicativo `Taskbar for BlissOS`, deve ativar e configurar a variável RAM para usar no mínimo 3 GB RAM (Em MB):  
+
+> RAM=3072  
 
 ```
 cd ~/Downloads
