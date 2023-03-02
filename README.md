@@ -29,4 +29,4 @@ Foi testado 2 melhores versões de sistemas Android 11 usando este pacote como b
 Se quiser testar ou usar também, siga as instruções das mesmas:  
 
 1) [qemu-android-primeos-x86](https://github.com/elppans/qemu-android-primeos-x86/blob/main/README.md)  
-2) [qemu-android-blissos-x86](https://github.com/elppans/qemu-android-blissos-x86/edit/main/README.md)  
+2) [qemu-android-blissos-x86](https://github.com/elppans/qemu-android-blissos-x86/blob/main/README.md)  
